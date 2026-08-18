@@ -33,7 +33,7 @@ jobs:
           gradle-version: '8.13'
 
       - name: Extract project
-        run: unzip -q SupernovaFlights-v0.1.zip
+        run: unzip -q SupernovaFlights-v0.1-2.zip
 
       - name: Build APK
         working-directory: SupernovaFlights
